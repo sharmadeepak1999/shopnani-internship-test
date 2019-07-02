@@ -9,7 +9,7 @@ const searchRoute = require("./routes/searchRoute")
 const app = express()
 
 // Sets the Development/Production port number
-const port = process.env.port || 3000
+const port = process.env.PORT || 3000
 
 // Specifies the path of the views folder
 const viewsPath = path.join(__dirname, "/views")
