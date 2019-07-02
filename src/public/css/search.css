@@ -1,0 +1,70 @@
+/* ShopNani Logo Styles */
+.logo {
+	width: 100%;
+}
+
+.logo-container {
+	width: 100%;
+	max-width: 600px;
+	min-width: 270px;
+	margin: auto;
+	margin-top: 150px;
+}
+
+/* Search Box Styles */
+.search-box {
+	width: 100%;
+	max-width: 700px;
+	min-width: 270px;
+	margin: auto;
+	margin-top: 30px;
+}
+
+.search-bar {
+	outline: none;
+	padding: 20px !important;
+  	-webkit-box-shadow: none !important;
+  	-moz-box-shadow: none !important;
+}
+
+.search-bar:focus {
+	border-color: #696969;
+}
+
+#search-btn {
+	outline: none;
+	-webkit-box-shadow: none !important;
+  	-moz-box-shadow: none !important;
+}
+
+/* Product Container styles */
+.product-image-container {
+	width: 55%;
+	margin: auto;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+.product-image {
+	width: 100%;
+	max-width: 60px;
+	min-width: 40px;
+}
+
+.product-title {  
+	white-space: nowrap; 
+  	max-width: 500px;
+  	min-width: 150px; 
+  	overflow: hidden;
+  	text-overflow: ellipsis; 
+}
+
+/* Mixed styles */
+#product-container, .no-result, .loading {
+	display: none;
+	width: 100%;
+	max-width: 700px;
+	min-width: 270px;
+	margin: auto;
+	margin-top: 30px;
+}

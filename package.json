@@ -1,0 +1,20 @@
+{
+  "name": "shopnani-intern-test-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/app.js"
+  },
+  "author": "Deepak Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "helmet": "^3.18.0",
+    "mongoose": "^5.6.2",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "validator": "^11.0.0"
+  }
+}

@@ -1,0 +1,38 @@
+<%- include("partials/header.ejs") %>
+<div class="container">
+
+	<!-- Logo and  search box container -->
+	<div class="container mb-5" id="search-container">
+		<div class="container logo-container">
+			<img src="/public/logo.png" class="logo">
+		</div>
+		<div class="container search-box">
+			<form id="search-form">
+				<div class="input-group">
+				  <input type="text" class="form-control search-bar" placeholder="Search for any product">
+				  <div class="input-group-append">
+				    <button class="btn btn-outline-secondary" type="submit" id="search-btn"><i class="fas fa-search"></i></button>
+				  </div>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<!-- Loding icon container -->
+	<div class="container text-center loading">
+		<i class="fas fa-spinner fa-spin fa-3x"></i>
+	</div>
+
+	<!-- No result container -->
+	<div class="container text-center no-result">
+		<div class="jumbotron text-center text-muted">
+			<h4>Sorry! No such product found.</h4>
+			<p><small>Try changing the spelling or keyword.</small></p>
+		</div>
+	</div>
+
+	<!-- Product list container -->
+	<div class="container" id="product-container">
+	</div>
+</div>
+<%- include("partials/footer.ejs") %>
