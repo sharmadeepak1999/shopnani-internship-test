@@ -20,18 +20,6 @@ app.set("view engine", "ejs")
 // Sets the view's folder path
 app.set("views", viewsPath)
 
-
-// Redirects to https on production environment
-if(process.env.NODE_ENV === "production")
-{ 
-  app.use((req, res, next) => {
-    if(!req.secure) {
-      res.redirect(`https://${req.headers.host}${req.url}`)
-    }
-    next()
-  })
-}
-
 // Specifies the path to the public folder
 app.use('/public',express.static(path.join(__dirname, "/public")))
 
